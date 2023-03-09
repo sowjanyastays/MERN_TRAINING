@@ -15,7 +15,7 @@ body{
     width: 100%;
     max-width: 1000px;
     min-height: 1000px;
-    margin: 50px;
+    margin: 15px;
     background: white;
     display:grid;
     grid-template-columns: 1fr 2fr;
@@ -24,7 +24,7 @@ body{
 .resume .left-side{
     position: relative;
     background: rgb(75, 0, 105);
-    padding : 40px;
+    padding : 50px;
 }
 .resume .right-side{
     position: relative;
@@ -40,10 +40,12 @@ body{
 }
 .profile .image{
     position: relative;
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     overflow: hidden;
+    margin-left: 40px;
+    margin-bottom: 10px;
 }
 .profile .image img{
     position: absolute;
@@ -105,4 +107,24 @@ body{
     position: relative;
     margin: 10px 0;
     padding: 1.5px;
+}
+.about{
+    margin-bottom: 40px;
+}
+.title2{
+   color: rgb(75, 0, 105); 
+   letter-spacing: 1px;
+   margin-bottom: 10px;
+}
+.about p{
+    color: rgb(75, 0, 105);
+    line-height: 2.0;
+}
+.achieve ul li{
+    position: relative;
+    margin: 10px 0;
+    padding: 1.5px;
+    color: rgb(75, 0, 105);
+    line-height: 1.6;
+    
 }
