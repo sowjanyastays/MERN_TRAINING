@@ -40,8 +40,8 @@ body{
 }
 .profile .image{
     position: relative;
-    height: 120px;
-    width: 120px;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
     overflow: hidden;
     margin-left: 40px;
@@ -61,7 +61,7 @@ body{
 }
 .contact{
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 .title{
     color: white;
@@ -85,9 +85,6 @@ body{
     margin-bottom: 15px;
     color: white;
 }
-.education li{
-    margin-bottom: 15px;
-}
 .education h5{
     color: lightblue;
     font-weight: 500;
@@ -101,7 +98,7 @@ body{
     color: white;
 }
 .languages{
-    padding-top: 35px;
+    padding-top: 25px;
 }
 .languages ul li{
     position: relative;
@@ -120,6 +117,9 @@ body{
     color: rgb(75, 0, 105);
     line-height: 2.0;
 }
+.achieve{
+    margin-bottom: 40px;
+}
 .achieve ul li{
     position: relative;
     margin: 10px 0;
@@ -127,4 +127,11 @@ body{
     color: rgb(75, 0, 105);
     line-height: 1.6;
     
+}
+.courses ul li{
+    position: relative;
+    margin: 10px 0;
+    padding: 1.5px;
+    color: rgb(75, 0, 105);
+    line-height: 1.6;
 }
