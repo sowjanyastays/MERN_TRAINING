@@ -1,1 +1,32 @@
-/* This is a comment */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightblue;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.resume{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: white;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+.resume .left-side{
+    position: relative;
+    background: navy;
+    padding : 40px;
+}
+.resume .right-side{
+    position: relative;
+    background: white;
+    padding : 40px;
+}
